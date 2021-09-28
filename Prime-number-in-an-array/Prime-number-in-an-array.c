@@ -1,6 +1,6 @@
+//Function to print all the prime numbers in an array
 #include<stdio.h>
 #include<math.h>
-//Function to print all the prime numbers in an array
 void prime(int *arr, int num)
 {
     printf("The prime numbers are:");
