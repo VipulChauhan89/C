@@ -22,6 +22,6 @@ int main()
   Da=(Da_percent*Basic_pay)/100;
   Net_salary=Basic_pay+Hra+Ta+Da;
   printf("The name of the employ is %s",name);
-  printf("Net salary of the employ is = %.2lf rupees .",Net_salary);
+  printf("Net salary of the employ is = %.2lf rupees .\n",Net_salary);
   return 0;
 }
