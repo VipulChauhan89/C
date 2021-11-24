@@ -17,7 +17,7 @@ int main()
   }
   else
   {
-    printf("Enter triangle is invalid.\n");
+    printf("Entered triangle is invalid.\n");
   }
   return 0;
 }
