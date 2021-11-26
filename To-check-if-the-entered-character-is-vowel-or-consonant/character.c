@@ -11,16 +11,16 @@ int main()
   {
     if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
     {
-      printf("The entered character is vowel.");
+      printf("The entered character is vowel.\n");
     }
     else
     {
-      printf("The entered character is consonant.");
+      printf("The entered character is consonant.\n");
     }
   }
   else
   {
-    printf("The entered character is not an alphabet.");
+    printf("The entered character is not an alphabet.\n");
   }
   return 0;
 }
