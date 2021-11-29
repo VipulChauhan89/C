@@ -23,4 +23,5 @@ int main()
   sum=m1+m2+m3+m4-min;
   average=sum/3;
   printf("The average of top three subjects is = %.2f\n",average);
+  return 0;
 }
