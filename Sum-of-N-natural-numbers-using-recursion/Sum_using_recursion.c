@@ -1,6 +1,8 @@
+/*
+    Program to find out the sum of N natural numbers using recursion
+*/
 #include <stdio.h>
 #include <stdlib.h>
-//Function to find the sum of all natural numbers upto the limit N
 int sum(int n)
 {
     if(n==1)
@@ -16,4 +18,3 @@ int main()
     printf("Sum is = %d \n",sum(N));
     return 0;
 }
-
