@@ -1,3 +1,6 @@
+/*
+    Program to find the sum of the digits of the number using recursion
+*/
 #include <stdio.h>
 #include <stdlib.h>
 //Function to return the sum of the digits using recursion
