@@ -34,11 +34,11 @@ int main()
   {
     printf("Grade C.\n");
   }
-  else if(percentage>=40 and percentage<50)
+  else if(percentage>=40 && percentage<50)
   {
     printf("Grade D.\n");
   }
-  else if(percentage>=35 and percentage<40)
+  else if(percentage>=35 && percentage<40)
   {
     printf("Grade E.\n");
   }
