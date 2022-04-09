@@ -7,20 +7,27 @@ int main()
   int num,temp,sum=0,s;
   printf("Enter the number : ");
   scanf("%d",&num);
-  temp=num;
-  while(temp!=0)
+  if(num>=100 && num<=999)
   {
-    s=temp%10;
-    sum=sum+(s*s*s);
-    temp=temp/10;
-  }
-  if(sum==num)
-  {
-    printf("%d is an armstrong number.\n",num);
+    temp=num;
+    while(temp!=0)
+    {
+      s=temp%10;
+      sum=sum+(s*s*s);
+      temp=temp/10;
+    }
+    if(sum==num)
+    {
+      printf("%d is an armstrong number.\n",num);
+    }
+    else
+    {
+      printf("%d is not an armstrong number.\n",num);
+    }
   }
   else
   {
-    printf("%d is not an armstrong number.\n",num);
+    printf("It is not a three digit number.\n");
   }
   return 0;
 }
